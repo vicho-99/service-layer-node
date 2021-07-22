@@ -1,0 +1,24 @@
+{
+  "name": "service-layer-node",
+  "version": "1.0.0",
+  "description": "conexión con service layer node",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --tls-min-v1.0 server.js"
+  },
+
+  
+  "author": "Vicente Muñoz",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "compression": "^1.7.4",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "https": "^1.0.0",
+    "joi": "^17.4.1"
+  }
+}
