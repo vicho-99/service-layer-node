@@ -1,5 +1,5 @@
 # service-layer-node
-Connection service layer node mvc express
+SAP Connection service layer node mvc express
 
 init 
 * config .env 
